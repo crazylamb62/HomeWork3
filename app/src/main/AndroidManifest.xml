@@ -12,7 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Task3">
         <activity
+            android:name=".ActivityC"
+            android:taskAffinity="com.example.myapp.secondtask"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityB"
+            android:taskAffinity="com.example.myapp.secondtask"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:launchMode="singleTask"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
