@@ -4,6 +4,8 @@
     <string name="switch_activity">Switch_activity</string>
     <string name="activityb">ActivityB</string>
     <string name="activityc">ActivityC</string>
-    <string name="generate_color">Generate color</string>
     <string name="activitya">activityA</string>
+    <string name="enter_color">Enter color</string>
+    <string name="set_color">Set color</string>
+    <string name="generate_color">generate color</string>
 </resources>
